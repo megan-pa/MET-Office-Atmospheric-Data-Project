@@ -9,18 +9,36 @@ For this research, multiple datasets have been combined to investigate links bet
 * [Applied Data Science - Met Office Dataset](https://zenodo.org/records/10624903)
 * [Emergency Events Database(EM-DAT)](https://public.emdat.be/)
 * [Geocoded Disasters (GDIS) Dataset](https://data.nasa.gov/dataset/geocoded-disasters-gdis-dataset)
-* [GHS UCDB]
+* [Global Human Settlement Layer - Urban Centre Database (GHSL UCDB)](https://human-settlement.emergency.copernicus.eu/ucdb2024Overview.php)
+* [WHO Disease Dataset](https://www.who.int/data)
 
 ### Final Dataset
-Our final merged dataset combined disaster, climate and socioeconomic data into a unified dataset. This included 16 features relating to environmental and development indicators and was used for our data modelling section. 
+Our final merged dataset combined disaster, climate and socioeconomic data into a unified dataset. This included 16 features relating to environmental and development indicators and was used for our data modelling section. Further details on how this dataset was created can be found in the report.
 
 ## Repository Structure
 
 ## Visualisations
+This repository contains additional visualisations that support the analysis presented in the report. These include the following: 
+* Exploratory data analysis
+* Machine learning and dimensionality reduction
+* Model outputs 
 
 ## Methods Used
-
-## Reproducing Plots
+This project applies a range of data science techniques, as depicted in the report:
+* Data preparation
+  * Dataset merging and aligning multiple sources
+  * Interpoltation and aggregation of data
+  * Outlier detection and removal 
+* Exploratory analysis
+  * Pearson correlation analysis
+  * Time-series visualisation
+* Dimensionality reduction
+  * Principal Component Analysis (PCA)
+  * t-Distributed Stochastic Neighbour Embedding (t-SNE)
+* Machine learning & modelling
+  * Clustering (K-Means, Gaussian Mixture Models)
+  * Hidden Markov Models (HMMs) for temporal dynamics
+  * Regression models (Random Forest, Gradient Boosting, MLP)
 
 ## Contributors
 * Megan Parfitt
