@@ -3,6 +3,9 @@
 ## Overview
 This project investigates the MET Office subset of the WeatherBench dataset that contains information on climate factors (precipitation, u-wind, v-wind and temperature) for 12 locations worldwide. 
 
+## AI Declaration
+I acknowledge the use of ChatGPT (https://chat.openai.com/) to assist with code debugging. The output's from the prompts used were then analysed carefully and correct lines of code were modified in the notebook. This reduced the amount of time needed for debugging and allowed for more focus on data analysis and interpretation. 
+
 ## Datasets 
 ### Initial Datasets
 For this research, multiple datasets have been combined to investigate links between climate, socioeconomic factors and natural disasters. Below are links to the datasets used for this analysis: 
